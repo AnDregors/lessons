@@ -1,0 +1,45 @@
+/* Скидання стилів */
+@import url("reset.css");
+/* Навігація */
+.list-item-content-1 {color: cadetblue;
+}
+.list-item-content-3 {color: coral;
+}
+.list-item-content-4 {color: darkgoldenrod;
+}
+.texte {color: fuchsia;}
+/* Контент-1 */
+#page{
+   color: darkgoldenrod;
+}
+#page
+.news-heading {color: chocolate;}
+#content-1 
+.news-heading{
+   color: rgb(15, 221, 190);
+}
+/* контент-2 */
+#content-2
+.list-2{
+   color:olivedrab;
+}
+/* контент-3 */
+#content-3
+.list-3{
+color: blueviolet;
+}
+.colors{color: rgb(55, 156, 27);}
+.color{color: red;}
+/* контент-4 */
+.content-4cl{
+   color: rgba(30, 136, 228, 0.208);
+}
+.news-heading-4{color: dodgerblue;}
+.space { color: greenyellow;
+}
+.text-4{color: cornflowerblue;}
+/* Футер */
+#footer{
+color: gold;
+}
+#footer .footer-text-end{color: dimgray;}
