@@ -83,7 +83,7 @@
    background: url(../img/pic.svg);
    background-repeat: no-repeat;
    background-position: 800px 0px;
-   background-size: contain;
+/*    background-size: contain; */
 }
 .portfolio-head {
    color: #EF6D58;
