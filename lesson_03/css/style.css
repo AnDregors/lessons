@@ -1,0 +1,39 @@
+/* Скидання стилів */
+@import url("reset.css");
+/* Навігація */
+.list-item-content-1 {color: cadetblue;
+}
+.list-item-content-3 {color: coral;
+}
+.list-item-content-4 {color: darkgoldenrod;
+}
+.texte {color: fuchsia;}
+/* Контент-1 */
+#democratic-traditions,.news-heading {color: chocolate;}
+#democratic-traditions
+.news-heading{
+   color: rgb(15, 221, 190);
+}
+/* контент-2 */
+#facts-traditions
+.list-2{
+   color:olivedrab;
+}
+/* контент-3 */
+#facts-crimea
+.list-3{
+color: blueviolet;
+}
+.colors{color: rgb(55, 156, 27);}
+.color{color: red;}
+/* контент-4 */
+div.text-content-4{color: darkgoldenrod;}
+.news-heading-4{color: dodgerblue;}
+.space { color: greenyellow;
+}
+.text-4{color: cornflowerblue;}
+/* Футер */
+div.footer-text{
+   color: rgb(139, 227, 15);
+}
+#footer-text-end{color: rgb(219, 20, 20);}

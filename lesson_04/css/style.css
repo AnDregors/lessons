@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+/* local fonts */
+@import url("fonts.css");
+/* reset style */
+@import url("reset.css");
+h1{
+   font-size: 50px;
+   color: rgba(0, 250, 121);
+   text-align: center;
+   font-family: "Work sans", serif;
+}
+.links-item-national{
+   font-family: "DM Sans";
+   text-align: center;
+   color: darkblue;
+}
+.links-item-porfolio{
+   font-family: "Roboto",sans-serif;
+   font-size: 20px;
+   text-align: center;
+   color: darkblue;
+}
+h2{
+text-align: right;
+   font-style: italic;
+   text-shadow: 5px 3px 4px #fb0202, -5px 4px 3px rgb(255, 196, 0);
+   
+}
+p{
+   text-align: right;
+   font-weight: 900;
+}
+.flag-day {
+   font-size: 20px;
+   line-height: 25px;
+   text-decoration:underline;
+}
+.shadow {
+   text-shadow: 5px 2px 5px #000, 5px -2px 10px rgb(1, 43, 255);
+}
+.national-flag {
+   text-transform: lowercase;
+   font-family: 'Fira Sans Heavy';
+   letter-spacing:1.4px;
+   font-size: 22px;
+   
+}
+.mark {
+   color: rgb(188, 188, 49);
+   text-decoration: underline;
+}
+.text-line {
+   text-decoration: line-through;
+   line-height: 10px;
+   color: #ec2c2c;
+   white-space: nowrap;
+}
+.ukrainian-flag {
+   font-family: 'Fira Sans Heavy';
+   text-align: center;
+   text-transform:capitalize;
+   font-size: 10px;
+}
+.title-underline {
+   text-decoration: underline;
+   color: rgba(48, 186, 35, 0.301);
+   word-spacing:10px;
+}
+/* About */
+.about-section {
+   font-family: "DM Sans";
+}
+.about-title {
+   color: var(--Neutral-Colors-Color-800, #1E1B39);
+   font-size: 88px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 95px;
+}
+.about-subtitle {
+   color: var(--Neutral-Colors-Neutral-700, #474464);
+   font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px; /* 175% */
+}
+/* Porfolio */
+.portfolio-section {
+   font-family: "Work Sans";
+}
+.portfolio-title {
+   color: var(--Gray-900, #132238);
+   font-size: 38px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 50px; /* 131.579% */
+}
+.portfolio-subtitle {
+   color: var(--Gray-600, #556070);
+   font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 133.333% */
+}
+/* Landing */
+.landing-section {
+   font-family: "Roboto";
+}
+.landing-title {
+   color: var(--Colour-Main-Blue-900, #091133);
+   font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: 66px; /* 132% */
+letter-spacing: 1px;
+}
+.landing-subtitle {
+   color: var(--Colour-Main-Blue-500, #505F98);
+   font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.mail{
+   text-decoration: underline;
+   text-shadow: 5px 2px 5px #e20202, 5px -2px 10px rgb(166, 239, 6);
+   font-size: 25px;
+   text-align: center;
+   /* text-decoration-line: overline; */
+   text-decoration-style: double;
+   text-decoration-color: chocolate;
+}

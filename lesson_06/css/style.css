@@ -1,0 +1,125 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+.header {
+   font-family:"Manrope",sans-serif;
+   font-size: 50px;
+   color: bisque;
+   border: 1px solid black;
+   border-radius: 5px;
+   text-align: center;
+   background-color: gray;
+}
+.dark {
+   background-repeat: no-repeat;
+    background-image: url(../img/sub-container.png), linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%);
+    background-color: #141414;
+    background-position: center;
+    background-size: contain;
+}
+.dark-theme {
+   max-width: 1950px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+.dark-section {
+    padding-top: 796px;
+    padding-bottom: 50px;
+    color: #999;
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.text-section {
+   margin: 0 auto 50px;
+   max-width: 1096px;
+}
+.dark-title {
+   color: #FFF;
+   font-size: 58px;
+   font-weight: 700;
+   margin-bottom: 14px;
+}
+.dark-button {
+   padding: 18px 24px;
+    border-radius: 8px;
+    background-color: #E50000;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+/*  */
+.portfolio {
+   font-family: "Epilogue", sans-serif;
+   color: rgba(57, 20, 0, 0.64);
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 2;
+   background-color: #FFE4DF;
+   padding: 50px 0;
+}
+.portfolio-section {
+   max-width: 1204px;
+   padding: 0 15px;
+   margin-left: auto;
+   margin-right: auto;
+   background: url(/lesson_06/img/pic.svg);
+   background-repeat: no-repeat;
+   background-position: 800px 0px;
+   background-size: contain;
+}
+.portfolio-head {
+   color: #EF6D58;
+   letter-spacing: 3px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+}
+.portfolio-title {
+   color: #391400;
+   font-size: 56px;
+   font-weight: 800;
+   line-height: 1.14;
+   letter-spacing: -1px;
+   margin-bottom: 26px;
+   max-width: 397px;
+}
+.portfolio-text {
+   color: #391400;
+   font-size: 20px;
+   line-height: 1.6;
+   margin-bottom: 26px;
+}
+.portfolio-item {
+}
+.portfolio-item-list {
+   margin-bottom: 16px;
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
+    padding-left: 48px;
+}
+.footer{
+   background-color: gray;
+   font-family:"Epilogue",sans-serif;
+   font-size: 50px;
+   color: rgba(68, 26, 219, 0.594);
+   border: 1px solid black;
+   border-radius: 5px;
+   text-align: center;
+}

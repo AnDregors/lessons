@@ -1,0 +1,12 @@
+@font-face {
+   font-family: 'Fira Sans Heavy';
+   src: local('Fira Sans Ultra Italic'), local('FiraSans-UltraItalic'), url('/fonts/Firasansultraitalic.woff2') format('woff2'), url('/fonts/Firasansultraitalic.woff') format('woff'), url('/fonts/Firasansultraitalic.ttf') format('truetype');
+   font-weight: 400;
+   font-style: italic;
+}
+@font-face {
+   font-family: 'Fira Sans Heavy';
+   src: local('Fira Sans Ultra'), local('FiraSans-Ultra'), url('/fonts/Firasansultra.woff2') format('woff2'), url('/fonts/Firasansultra.woff') format('woff'), url('/fonts/Firasansultra.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
