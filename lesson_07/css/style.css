@@ -1,0 +1,273 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.head{
+   font-size: 65px;
+   color: #4A3AFF;
+   background: #6E6C83;
+   text-align: center;
+   margin-bottom: 20px;
+}
+/* Timeline */
+.timeline-logo{
+   font-size: 50px;
+   text-align:center;
+   color: #211d54;
+   height: 70px;
+   margin-bottom: 50px;
+   background-color: #434156;
+
+}
+.timeline {
+   font-family: "DM+Sans",sans-serif;
+   width: 100%;
+}
+.timeline-section {
+   margin: 0px auto;
+   max-width: 943px;
+}
+.timeline-content{
+   display: inline-block;
+   max-width: 630px;
+   padding-block: 106px;
+   vertical-align: middle;
+}
+.timeline__content>*:not(:last-child) {
+   margin-bottom: 8px;
+}
+.timeline-number{
+   display: inline-block;
+   width: 218px;
+   height: 218px;
+   background-color: rgba(74, 58, 255, 0.1);
+   border-radius: 50%;
+   color: #4A3AFF;
+   text-align: center;
+   font-size: 88px;
+   font-weight: 700;
+   line-height: 247.727273%;
+   margin-right: 42px;
+   vertical-align: middle;
+}
+.timeline-date{
+   color:#4A3AFF;
+font-size: 20px;
+font-weight: 700;
+line-height: 22px;
+}
+.timeline-title{
+   color:#1E1B39;
+   font-size: 42px;
+   font-weight: 700;
+   line-height: 54px;
+}
+.timeline-item:nth-child(1) .timeline-title::after{
+   content: "🔎";
+}
+.timeline-item:nth-child(2) .timeline-title::after{
+   content: "💻";
+}
+.timeline-item:last-child .timeline-title::after{
+   content: "🚀";
+}
+.timeline-item:not(:last-child) {
+   margin-bottom: 54px;
+}
+                     /* Prising */
+                     .prising-logo{
+                        font-size: 50px;
+                        text-align:center;
+                        text-decoration: dotted;
+                        color: #4A3AFF;
+                        height: 70px;
+                        margin-bottom: 50px;
+                        background-color: #6E6C83;
+                     }
+                     .prising-block {
+                        background-color: #F0F0F6;
+                        text-align: center;
+                        margin: 0px auto;
+                        max-width: 573px;
+                        border: 2px solid;
+                        border-radius: 56px;
+                        margin-bottom: 50px;
+                     }
+                     .prising-section {
+                        padding: 24px;
+                     }
+                     .prising-head {
+                        height: 271px;
+                        border: 1px solid;
+                        border-radius: 34px;
+                        background-color: #4A3AFF;
+                        font-family: "DM Sans",sans-serif;
+                        font-weight: 700;
+                        color: #FFF;
+                        margin-bottom: 34px;
+                        margin-top: 24px;
+                        
+                     }
+                     .prising-head h1{
+                        margin-top: 45px;
+                     font-size: 30px;
+                     line-height: 32px;
+                     }
+                     .prising-head h2{
+                     font-size: 116px;
+                     line-height: 120px;
+                     margin-bottom: 6px;
+                     }
+                     .prising-head p{
+                     font-size: 20px;
+                     line-height: 22px;
+                     color: rgba(255, 255, 255, 0.6);
+}
+                     .list {
+                        text-align: left;
+                        margin-bottom: 26px;
+                     
+                     }
+                     .list:not(:last-child) {
+                        margin-bottom: 0px;
+                     
+                     }
+                     .list-item {
+                        color:#1E1B39;
+                     font-size: 28px;
+                     font-weight: 700;
+                     line-height: 38px;
+                     margin-bottom: 28px;
+                     }
+                     .list-item::before{
+                        margin-right: 10px;
+                        margin-bottom: 10px;
+                        vertical-align: middle;
+                        content: "";
+                        width: 36px;
+                        height: 36px;
+                        background:url("../img/checks.svg") 0 0 / 36px no-repeat;
+                     }
+
+                                    /* Porfolio */
+                                    .portfolio-logo{
+                                       font-size: 50px;
+                                       text-align:center;
+                                       color: #4A3AFF;
+                                       height: 70px;
+                                       margin-bottom: 50px;
+                                       background-color: #6E6C83;
+                                    }
+                                    .portfolio-page {
+                                       width: 1440px;
+                                       font-family: "Epilogue",sans-serif;
+                                       background-color: #F9E5DA;
+                                    }
+                                    .portfolio-page img{
+                                       max-width: 970px;
+                                       display: block;
+                                       margin: 0px auto;
+                                       margin-bottom: 74px;
+                                    }
+                                    .portfolio-block {
+                                       margin: 0px auto;
+                                       max-width: 570px;
+                                       font-size: 0px;
+                                       padding: 0 15px;
+                                    }
+                                    /* DIV(1) */
+                                    .portfolio-section {
+                                       color: #391400;
+                                       width: 570px;
+                                       margin-bottom: 35px;
+                                       
+                                    }
+                                    .portfolio-title {
+                                       font-size: 24px;
+                                       font-weight: 700;
+                                       line-height: 32px; /* 133.333% */
+                                       margin-bottom: 32px;
+                                       
+                                    }
+                                    .portfolio-text {
+                                       color:rgba(57, 20, 0, 0.64);
+                                       font-size: 16px;
+                                       font-weight: 400;
+                                       line-height: 32px; /* 200% */
+                                       margin-bottom: 51px;
+                                    }
+                                    .portfolio-items::before{
+                                       content: "";
+                                       background: url(../img/Oval.svg) 0px 0px / 8px no-repeat;
+                                       width: 8px;
+                                       height: 8px;
+                                       flex-shrink: 0;
+                                       vertical-align: middle;
+                                       padding-left: 16px;
+                                    }
+                                    .portfolio-items {
+                                       font-size: 16px;
+                                       font-weight: 400;
+                                       line-height: 32px; /* 200% */
+                                    }
+                                    .portfolio-text-end{
+                                       color:rgba(57, 20, 0, 0.64);
+                                       font-size: 16px;
+                                       font-weight: 400;
+                                       line-height: 32px; /* 200% */
+                                       margin-bottom: 51px;
+                                       margin-top: 32px;
+                                       margin-bottom: 51px;
+                                    }
+                                    /* DIV(2) */
+                                    .portfolio-section-two {
+                                       margin-bottom: 111px;
+                                    }
+                                    .portfolio-list {
+                                       list-style-position: inside;
+                                       list-style-type: decimal;
+                                       font-size: 16px;
+                                       font-weight: 400;
+                                       line-height: 32px; /* 200% */
+                                    }
+                                    .portfolio-section-two > ol > li {
+                                       list-style-position: inside;
+                                       list-style-type: decimal;
+                                   }
+                                    /* DIV(3) */
+                                    .portfolio-section-subtitle::before{
+                                       content: "";
+                                    }
+                                    .portfolio-section-subtitle
+                                    {
+                                       border-radius: 6px;
+                                       background: #F9E5DA;
+                                       border: 1px black solid;
+                                       background: url(../img/Shape.svg) 32px 40px / 48px 36px no-repeat;
+                                       margin-block-end: 76px;
+                                       padding-block: 42px 32px;
+                                       padding-inline: 112px 32px;
+                                       color: #391400;
+                                       font-size: 20px;
+                                       font-weight: 400;
+                                       line-height: 32px;
+                                    }
+                                    footer,h3{
+                                       font-size: 65px;
+                                       color: #4A3AFF;
+                                       background: #6E6C83;
+                                       text-align: center;
+                                    }
